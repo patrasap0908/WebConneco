@@ -1,0 +1,67 @@
+.ui.menu {
+    height: 8%;
+    margin-bottom: 0;
+}
+
+.ui.inverted.menu .item > i.icon {
+    color: white;
+    margin-left: 10px;
+}
+
+.ui.input {
+    width: 90%;
+}
+
+#spaces {
+    display: none;
+    position: absolute;
+    max-height: 80%;
+    top: 8%;
+    left: 10%;
+    margin: 0;
+}
+
+.space {
+    display: block;
+    color: black;
+    font-weight: 600;
+    margin: 0 20px 5px 20px;
+    padding: 3px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.org-name {
+    margin: 0 20px 5px 20px;
+    padding: 3px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.tt-menu {
+    display: block;
+    width: calc(100% - 4px);
+    border: 2px solid #bbb;
+    border-top: 0;
+    padding: 0;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.tt-suggestion {
+    padding: 5px 10px;
+    margin: 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.tt-suggestion.tt-selection {
+    background-color: white;
+}
+
+.tt-suggestion:hover {
+    background-color: #ddd;
+    color: blue;
+}
+
+.tt-highlight {
+    background-color: yellow;
+}
