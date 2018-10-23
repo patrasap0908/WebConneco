@@ -1,1 +1,1 @@
-Autocomplete box. 
+Autocomplete box done using JavaScript.
